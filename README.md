@@ -2,6 +2,8 @@
 
 An interactive data visualization tool built with Python and Streamlit. Upload any dataset and explore it through dynamic, customizable plots — no coding required.
 
+![App Screenshot](images/app-screenshot.png)
+
 ## Features
 
 - Upload any CSV dataset and explore it interactively
