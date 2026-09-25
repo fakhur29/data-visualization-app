@@ -49,7 +49,7 @@ st.set_page_config(page_title="Data Visualization App", layout="wide",page_icon=
 
 st.title("Data visualization app")
 st.subheader("Upload file here and explore your data")
-uploaded_file = st.file_uploader("📂 upload csv file here: ",type=['csv','xlsx','txt','pdf'])
+uploaded_file = st.file_uploader("📂 upload csv file here: ",type=['csv','xlsx','txt'])
 
 
 
