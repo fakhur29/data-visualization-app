@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from streamlit import session_state
 from io import BytesIO 
 try:
-    with open("data_Visualization_app.css", encoding="utf-8") as f:
+    with open("data_visualization_app.css", encoding="utf-8") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 except Exception as e:
     st.error("❌ Error Occurred")
